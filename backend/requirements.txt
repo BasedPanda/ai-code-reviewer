@@ -1,0 +1,85 @@
+# Backend Dependencies
+
+# FastAPI and Server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+gunicorn==21.2.0
+python-multipart==0.0.6
+websockets==11.0.3
+
+# Database
+sqlalchemy==2.0.23
+alembic==1.12.1
+psycopg2-binary==2.9.9
+asyncpg==0.29.0
+
+# Authentication and Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.0
+pyjwt==2.8.0
+
+# GitHub Integration
+aiohttp==3.9.0
+gidgethub==5.3.0
+
+# AI/ML
+openai==1.2.3
+tiktoken==0.5.1
+
+# Caching and Rate Limiting
+redis==5.0.1
+fastapi-limiter==0.1.5
+
+# Data Validation and Serialization
+pydantic==2.5.1
+pydantic-settings==2.1.0
+email-validator==2.1.0.post1
+
+# Monitoring and Metrics
+prometheus-fastapi-instrumentator==6.1.0
+opentelemetry-api==1.21.0
+opentelemetry-sdk==1.21.0
+opentelemetry-instrumentation-fastapi==0.42b0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+httpx==0.25.1
+faker==20.1.0
+
+# Code Analysis
+pylint==3.0.2
+black==23.11.0
+isort==5.12.0
+mypy==1.7.0
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2023.3.post1
+humanize==4.9.0
+python-slugify==8.0.1
+colorama==0.4.6
+rich==13.7.0
+
+# Documentation
+mkdocs==1.5.3
+mkdocs-material==9.4.14
+mdx-include==1.4.2
+
+# Development Tools
+ipython==8.17.2
+pre-commit==3.5.0
+watchfiles==0.21.0
+
+# Async Support
+anyio==3.7.1
+aiofiles==23.2.1
+
+# Dependency Management
+pip-tools==7.3.0
+
+# Optional: Production Dependencies
+sentry-sdk==1.35.0
+newrelic==9.3.0
